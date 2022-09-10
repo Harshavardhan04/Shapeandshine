@@ -5,7 +5,7 @@ const app = express();
 
 
 app.get("/", function(req,res){
-  res.sendFile(__dirname + "/homepage.html");
+  res.sendFile(__dirname + "/index.html");
 
 });
 app.get("/styles.css",function(req,res) {
@@ -31,8 +31,8 @@ app.get("/logo.png",function(req,res) {
   app.get("/contact.html",function(req,res){
     res.sendFile(__dirname + "/contact.html");
   });
-  app.get("/homepage.html", function(req,res){
-    res.sendFile(__dirname + "/homepage.html");
+  app.get("/index.html", function(req,res){
+    res.sendFile(__dirname + "/index.html");
 
   });
 
