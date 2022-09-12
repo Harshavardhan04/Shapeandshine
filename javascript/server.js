@@ -18,19 +18,19 @@ app.get("images/logo.png",function(req,res) {
 });
 
   app.get("testimonials.html",function(req,res){
-    res.sendFile(__dirname + "testimonials.html");
+    res.sendFile(__dirname + "/shapeandshine/testimonials.html");
   });
   app.get("about.html",function(req,res){
-    res.sendFile(__dirname + "about.html");
+    res.sendFile(__dirname + "/shapeandshine/about.html");
   });
   app.get("services.html",function(req,res){
-    res.sendFile(__dirname + "services.html");
+    res.sendFile(__dirname + "/shapeandshine/services.html");
   });
   app.get("contact.html",function(req,res){
-    res.sendFile(__dirname + "contact.html");
+    res.sendFile(__dirname + "/shapeandshine/contact.html");
   });
   app.get("/index.html", function(req,res){
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/shapeandshine/index.html");
 
   });
 
