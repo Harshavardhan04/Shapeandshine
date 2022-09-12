@@ -17,16 +17,16 @@ app.get("images/logo.png",function(req,res) {
   res.sendFile(__dirname + "images/logo.png");
 });
 
-  app.get("testimonials/index.html",function(req,res){
+  app.get("testimonials.html",function(req,res){
     res.sendFile(__dirname + "testimonials.html");
   });
-  app.get("about/index.html",function(req,res){
+  app.get("about.html",function(req,res){
     res.sendFile(__dirname + "about.html");
   });
-  app.get("services/index.html",function(req,res){
+  app.get("services.html",function(req,res){
     res.sendFile(__dirname + "services.html");
   });
-  app.get("contact/index.html",function(req,res){
+  app.get("contact.html",function(req,res){
     res.sendFile(__dirname + "contact.html");
   });
   app.get("/index.html", function(req,res){
