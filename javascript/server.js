@@ -18,16 +18,16 @@ app.get("images/logo.png",function(req,res) {
 });
 
   app.get("testimonials/index.html",function(req,res){
-    res.sendFile(__dirname + "testimonials/index.html");
+    res.sendFile(__dirname + "testimonials.html");
   });
   app.get("about/index.html",function(req,res){
-    res.sendFile(__dirname + "about/index.html");
+    res.sendFile(__dirname + "about.html");
   });
   app.get("services/index.html",function(req,res){
-    res.sendFile(__dirname + "services/index.html");
+    res.sendFile(__dirname + "services.html");
   });
   app.get("contact/index.html",function(req,res){
-    res.sendFile(__dirname + "contact/index.html");
+    res.sendFile(__dirname + "contact.html");
   });
   app.get("/index.html", function(req,res){
     res.sendFile(__dirname + "/index.html");
