@@ -9,25 +9,25 @@ app.get("/", function(req,res){
 
 });
 app.get("/styles.css",function(req,res) {
-  res.sendFile(__dirname + "styles/styles.css");
+  res.sendFile(__dirname + "/styles.css");
 });
 
 
-app.get("/logo.png",function(req,res) {
+app.get("images/logo.png",function(req,res) {
   res.sendFile(__dirname + "images/logo.png");
 });
 
-  app.get("/testimonials.html",function(req,res){
-    res.sendFile(__dirname + "testimonials/testimonials.html");
+  app.get("testimonials/index.html",function(req,res){
+    res.sendFile(__dirname + "testimonials/index.html");
   });
-  app.get("/about.html",function(req,res){
-    res.sendFile(__dirname + "about/about.html");
+  app.get("about/index.html",function(req,res){
+    res.sendFile(__dirname + "about/index.html");
   });
-  app.get("/services.html",function(req,res){
-    res.sendFile(__dirname + "services/services.html");
+  app.get("services/index.html",function(req,res){
+    res.sendFile(__dirname + "services/index.html");
   });
-  app.get("/contact.html",function(req,res){
-    res.sendFile(__dirname + "contact/contact.html");
+  app.get("contact/index.html",function(req,res){
+    res.sendFile(__dirname + "contact/index.html");
   });
   app.get("/index.html", function(req,res){
     res.sendFile(__dirname + "/index.html");
