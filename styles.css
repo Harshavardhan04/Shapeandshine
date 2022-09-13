@@ -112,7 +112,7 @@
   /* height: 100px;
   width: 100px; */
   width: 15vw;
-  height: 8vw;
+  height: 12vw;
   float: left;
   margin-right: 15px;
 }
@@ -120,7 +120,7 @@
 .ewlc-img {
   /* height: 100px;
   width: 150px; */
-  width: 15vw;
+  width: 18vw;
   height: 12vw;
   float: right;
   margin-left: 15px;
@@ -147,7 +147,7 @@
 .benefits-img {
   /* height: 150px;
   width: 150px; */
-  width: 15vw;
+  width: 18vw;
   height: 12vw;
   float: left;
   margin-right: 15px;
@@ -160,7 +160,7 @@
   height: 12vw;
   float: right;
   margin-left: 15px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .sp-img {
@@ -209,7 +209,7 @@ p{
     line-height: 2;
 }
 .bottomContainerServicesPage p{
-
+background-color: white;
 margin: 0;
 text-align: center;
 font-family: 'Merriweather', serif;
