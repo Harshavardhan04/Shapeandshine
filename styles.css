@@ -107,6 +107,74 @@
 
 }
 
+
+.java-img {
+  /* height: 100px;
+  width: 100px; */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webDev-img {
+  /* height: 100px;
+  width: 150px; */
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.iOS-img {
+  /* height: 150px;
+  width: 175px; */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.numPyImg {
+  /* height: 80px;
+  width: 150px; */
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.HBS-img {
+  /* height: 150px;
+  width: 150px; */
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.entrepreneurship-img {
+  /* height: 150px;
+  width: 200px; */
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+.bottomContainerServicesPage p{
+  color: #40514E;
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
 /*elements*/
 ul li a {
   margin-right: 20px;
