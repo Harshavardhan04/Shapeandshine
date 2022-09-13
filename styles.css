@@ -108,7 +108,7 @@
 }
 
 
-.java-img {
+.pNp-img {
   /* height: 100px;
   width: 100px; */
   width: 25%;
@@ -116,7 +116,7 @@
   margin-right: 15px;
 }
 
-.webDev-img {
+.ewlc-img {
   /* height: 100px;
   width: 150px; */
   width: 25%;
@@ -124,7 +124,7 @@
   margin-left: 15px;
 }
 
-.iOS-img {
+.compliance-img {
   /* height: 150px;
   width: 175px; */
   width: 25%;
@@ -132,7 +132,7 @@
   margin-right: 15px;
 }
 
-.numPyImg {
+.pm-img {
   /* height: 80px;
   width: 150px; */
   width: 25%;
@@ -140,7 +140,7 @@
   margin-left: 15px;
 }
 
-.HBS-img {
+.benefits-img {
   /* height: 150px;
   width: 150px; */
   width: 20%;
@@ -157,6 +157,37 @@
   margin-top: 60px;
 }
 
+.sp-img {
+  /* height: 150px;
+  width: 150px; */
+  width: 20%;
+  float: left;
+  margin-right: 15px;
+}
+.recruitment-img {
+  /* height: 80px;
+  width: 150px; */
+  width: 25%;
+  float: right;
+  margin-left: 15px;
+}
+
+.training-img {
+  /* height: 150px;
+  width: 150px; */
+  width: 20%;
+  float: left;
+  margin-right: 15px;
+}
+.er-img {
+  /* height: 80px;
+  width: 150px; */
+  width: 25%;
+  float: right;
+  margin-left: 15px;
+}
+
+
 .skill-row {
   width: 70%;
   margin: 100px auto;
@@ -168,7 +199,7 @@ p{
     line-height: 2;
 }
 .bottomContainerServicesPage p{
-  color: #40514E;
+
 margin: 0;
 text-align: center;
 font-family: 'Merriweather', serif;
