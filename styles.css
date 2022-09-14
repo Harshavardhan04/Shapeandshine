@@ -3,6 +3,55 @@
   position: relative;
 }
 
+.container2{
+  background-color: #C9D6DF;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+nav ul li a:hover{
+  color:#ff5ea2;
+}
+
+.logo{
+  width: 50px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.menu-icon{
+  width: 25px;
+  cursor: pointer;
+  display: none;
+
+}
+
 .midContainer {
   height: 200px;
   margin-top: 0px;
@@ -317,4 +366,33 @@ form button{
    color: #52616B;
 
 
+}
+
+@media only screen and (max-width:700px){
+  nav ul{
+    width: 100%;
+    background-color: #C9D6DF;
+    position: absolute;
+    top: 75px;
+    right:0;
+    z-index: 2;
+  }
+  nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a{
+    color: #fff;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  #menuList{
+    overflow: hidden;
+    transition: 0.5s;
+  }
 }
