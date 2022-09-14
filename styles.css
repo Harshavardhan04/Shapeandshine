@@ -22,6 +22,15 @@
   background-color: #F1F1F6;
 }
 
+.bottomContainerServicesPage {
+  margin-top: 0;
+  height: 1400px;
+  padding-bottom: 200px;
+  margin-bottom: 200px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
 .bottomContainerHomePage{
   margin-top: -50px;
   height: 600px;
@@ -30,7 +39,7 @@
 }
 
 .bottomContainerContactPage{
-  margin-top: -50px;
+  margin-top: -200px;
   height: 300px;
   position: relative;
   background-color: #F1F1F6;
@@ -98,6 +107,127 @@
   align-items: center;
   justify-content: center;
 
+}
+
+
+.pNp-img {
+  /* height: 100px;
+  width: 100px; */
+  width: 15vw;
+  height: 12vw;
+  float: left;
+  margin-right: 15px;
+}
+
+.ewlc-img {
+  /* height: 100px;
+  width: 150px; */
+  width: 18vw;
+  height: 12vw;
+  float: right;
+  margin-left: 15px;
+}
+
+.compliance-img {
+  /* height: 150px;
+  width: 175px; */
+  width: 15vw;
+  height: 12vw;
+  float: left;
+  margin-right: 15px;
+}
+
+.pm-img {
+  /* height: 80px;
+  width: 150px; */
+  width: 15vw;
+  height: 12vw;
+  float: right;
+  margin-left: 15px;
+}
+
+.benefits-img {
+  /* height: 150px;
+  width: 150px; */
+  width: 18vw;
+  height: 12vw;
+  float: left;
+  margin-right: 15px;
+}
+
+.entrepreneurship-img {
+  /* height: 150px;
+  width: 200px; */
+  width: 15vw;
+  height: 12vw;
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.sp-img {
+  /* height: 150px;
+  width: 150px; */
+  width: 15vw;
+  height: 12vw;
+  float: left;
+  margin-right: 15px;
+}
+.recruitment-img {
+  /* height: 80px;
+  width: 150px; */
+  width: 15vw;
+  height: 12vw;
+  float: right;
+  margin-left: 15px;
+}
+
+.training-img {
+  /* height: 150px;
+  width: 150px; */
+  width: 15vw;
+  height: 12vw;
+  float: left;
+  margin-right: 15px;
+}
+.er-img {
+  /* height: 80px;
+  width: 150px; */
+  width: 15vw;
+  height: 12vw;
+  float: right;
+  margin-left: 15px;
+}
+
+
+.skill-row {
+  width: 70%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+p{
+    line-height: 2;
+}
+.bottomContainerServicesPage p{
+background-color: white;
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+.textStyles{
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 /*elements*/
@@ -182,7 +312,9 @@ form button{
   line-height: -200px;
   padding-top: 45px;
   padding-bottom: 0px;
-  font-family: 'helvetica';
-  font-size: 7vh;
-  color: #52616B;
+   font-family: 'helvetica';
+   font-size: 7vh;
+   color: #52616B;
+
+
 }
