@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="topContainer">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+</head>
 
-      <img id="logoimg" src="images/logo.png" alt="logo">
-      <nav id="navbarid" class="navbar navbar-expand-sm   navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+<body>
+  <div class="topContainer">
+    <div class="container2">
+      <div class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <nav>
+          <ul id="menuList">
             <li class="nav-item">
               <a class="nav-link" href="index"><b>Home</b> <span class="sr-only">(current)</span></a>
             </li>
@@ -32,36 +32,38 @@
             <li class="nav-item">
               <a class="nav-link" href="contact"><b>Contact Us</b></a>
             </li>
-
-
           </ul>
+        </nav>
+        <img class="menu-icon" src="images/menu.png" alt="menu" onclick="togglemenu()">
+      </div>
+    </div>
+  </div>
+  <div class="midContainer smaller">
+    <h2 id="titlestyle2">Contact Us</h2>
+  </div>
 
+  <div class="bottomContainer">
+    <!-- Contact Item -->
+    <div id='contactBox1' class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+      <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
+      <div class="contact_info_content">
+        <div class="contact_info_title">Phone</div>
+        <div class="contact_info_text"> <a href="tel:+919818929716">+919818929716</a></div>
+      </div>
+    </div>
+
+    <!-- Contact Item -->
+    <div id='contactBox2' class="contact_info_item d-flex flex-row align-items-center justify-content-start">
+      <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt="">
+      </div>
+      <div class="contact_info_content">
+        <div class="contact_info_title">Email</div>
+        <div class="contact_info_text"> <a
+            href="mailto:mishraharsh164@yahoo.co.uk?Subject=Interest in your services">mishraharsh164@yahoo.co.uk</a>
         </div>
-      </nav>
+      </div>
     </div>
-    <div class="midContainer smaller">
-        <h2 id="titlestyle2">Contact Us</h2>
-    </div>
-
-    <div class="bottomContainer">
-      <!-- Contact Item -->
-                        <div id = 'contactBox1' class="contact_info_item d-flex flex-row align-items-center justify-content-start">
-                            <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
-                            <div class="contact_info_content">
-                                <div class="contact_info_title">Phone</div>
-                                <div class="contact_info_text"> <a href="tel:+919818929716">+919818929716</a></div>
-                            </div>
-                        </div>
-
-                        <!-- Contact Item -->
-                        <div id = 'contactBox2' class="contact_info_item d-flex flex-row align-items-center justify-content-start">
-                            <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
-                            <div class="contact_info_content">
-                                <div class="contact_info_title">Email</div>
-                                <div class="contact_info_text"> <a href="mailto:mishraharsh164@yahoo.co.uk?Subject=Interest in your services">mishraharsh164@yahoo.co.uk</a></div>
-                            </div>
-                        </div>
-    </div>
+  </div>
   <div class="bottomContainerContactPage">
     <div class="container">
       <form onsubmit="sendEmail(); reset(); return false">
@@ -75,23 +77,24 @@
 
     </div>
   </div>
-<script src = "https://smtpjs.com/v3/smtp.js"></script>
-<script>
-function sendEmail(){
-  Email.send({
-  secureToken:"3dfcd04c-487e-4629-afd0-1cbe0632ae95",
-    To : 'mishraharsh164@yahoo.co.uk',
-    From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "Name: " + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Phone Number: " + document.getElementById("phone").value
-    + "<br> Message: " + document.getElementById("message").value
-}).then(
-  message => alert("message sent successfully")
-);
-}
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        secureToken: "3dfcd04c-487e-4629-afd0-1cbe0632ae95",
+        To: 'mishraharsh164@yahoo.co.uk',
+        From: document.getElementById("email").value,
+        Subject: "New Contact Form Enquiry",
+        Body: "Name: " + document.getElementById("name").value
+          + "<br> Email: " + document.getElementById("email").value
+          + "<br> Phone Number: " + document.getElementById("phone").value
+          + "<br> Message: " + document.getElementById("message").value
+      }).then(
+        message => alert("message sent successfully")
+      );
+    }
 
-</script>
-  </body>
+  </script>
+</body>
+
 </html>
